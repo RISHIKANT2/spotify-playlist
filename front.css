@@ -1,0 +1,102 @@
+.navbar img{
+  width: 40px;
+  height: 40px;
+  margin: 9px 6px;
+}
+h4{
+  font-size: 20px;
+  margin: auto 5px;
+}
+.navbar{
+    display: flex;
+    background-color:black ;
+    color: white;
+    border-radius: 8px;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+.navbar  ul li a{
+    text-decoration: none;
+    margin:auto 8px;
+    color: white;
+}
+.container{
+    min-height: 75vh;
+    width: 80%;
+    margin: 5px auto;
+    background-image: url("images/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+}
+.contents img{
+    width: 35px;
+    height: 35px;
+}
+.contents{
+    background-color: white;
+    display: flex;
+    width: 60%;
+    color: black;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 5px 5px ;
+}
+.contents span{
+    margin: auto 0px;
+}
+.contents:hover{
+    transform: scale(1.1);
+}
+.bottom{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color: white;
+    margin-top: 5px;
+}
+.bottom input{
+    width: 80%;
+}
+#masterplay:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#myProgressBar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#playing{
+    cursor: pointer;
+}
+#dj{
+    opacity: 0;
+    transition:opacity 0.4s ease-in ;
+    margin: 0px 6px;
+    width: 65px;
+}
+.play{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.corner{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: 230px;
+}
+.button{
+    margin-left: 4px;
+}
+.songplay:hover{
+    transform: scale(1.5);
+}
